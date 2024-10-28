@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+const name = 'Adis'
+</script>
 
 <template>
-  <h1>Hello World</h1>
+  <MainButton />
+  <OptionComponent />
+  <h1>Hello {{ name }}</h1>
 </template>
+
+<style scoped></style>
